@@ -1,0 +1,83 @@
+html, body, h1, h2, h3, p, ul, li {
+   padding: 0;
+   border: 0;
+   margin: 0; 
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: url(images-n-stuff/paper-stuff.jpg) top right repeat #d6b474;
+}
+p {
+    color: #bb0000;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #e99700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #e9b900;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-card {
+    width: 100%;
+    height: 25%;
+    box-align: top;
+    background: url(images-n-stuff/red-leather.png) top center repeat-x #cc0000;
+    background-size: 25% 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topics-card{
+    width: 100%;
+    height: 50%;
+    box-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.end-card {
+    width: 100%;
+    height: 20%;
+    box-align: bottom;
+    background: url(images-n-stuff/gold-shine.png) top center repeat-x #e99700;
+    background-size: 100% 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.end-card h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #cc0000;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topics-card ul {
+    padding-bottom: 10%;
+}
+.topics-card ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 2;
+    text-align: center;
+    list-style: none;
+    color: #350b33;
+}
+.topics-card h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4e1020;
+    padding-top: 10%;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
